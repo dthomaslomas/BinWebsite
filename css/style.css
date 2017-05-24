@@ -8,8 +8,9 @@ h1, h2, p, b, a{
 	font-weight: bold;
 }
 .wrapper{
-	max-width: 970px;
+	max-width: 100%;
 	margin:0px auto;
+	background-color: #95c11f;
 }
 .logo {
 	float: left;
@@ -30,13 +31,34 @@ h1, h2, p, b, a{
 	font-size: 30px;
 	height: auto;
     width: 1024px;
-    background-color: #95c11f;
     margin: 0 auto;
-    width: 100%;
 }
 .container-header ul li{
 	display: inline-block;
 	margin: 0;
 	padding: 10px 20px;
 	list-style: none;
+}
+.icon-wrapper {
+	width: 100%;
+	text-align: center;
+	background:grey;
+	padding: 200px 0 60px 0;
+}
+.text-section {
+	width: 100%;
+	text-align: center;
+	padding: 200px 0 55px 0;
+	background: #95c11f;
+}
+.click-sec a {
+	width: 100%;
+	display: inline-block;
+	padding: 20px 0;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: black;
+	letter-spacing: 3px;
+	text-align: center;
 }
