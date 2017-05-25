@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'museo_sans900';
+    src: url('../fonts/museo-sans-900-5926f88205a9f-webfont.woff2') format('woff2'),
+         url('../fonts/museo-sans-900-5926f88205a9f-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body{
 	margin: 0;
 }
@@ -42,8 +51,39 @@ h1, h2, p, b, a{
 .icon-wrapper {
 	width: 100%;
 	text-align: center;
-	background:grey;
-	padding: 200px 0 60px 0;
+}
+.hero {
+	width: 100%;
+	height: 450px;
+	background: url(../images/quays.jpg) no-repeat 70% 32%;
+	position: relative;
+	background-size: 100%;
+	display: table;
+}
+.hero h1{
+	font-family: 'museo_sans900';
+	z-index: 1;
+	color: #feed00;
+	text-align: center;
+	padding-top: 140px;
+    font-size: 42px;
+    text-shadow: 1px 1px 10px #000;
+}
+.hero p {
+	font-family: 'museo_sans900'
+	text-shadow: 1px 1px 10px #000;
+	font-size: 30px;
+	text-align: center;
+}
+.hero:after{
+	content: "";
+	height: 100%;
+	width: 100%;
+	top:0;
+	left: 0;
+	position: absolute;
+	display: block;
+	background: rgba(0, 0, 0, 0.11);
 }
 .text-section {
 	width: 100%;
@@ -58,7 +98,7 @@ h1, h2, p, b, a{
 	color: #fff;
 	text-transform: uppercase;
 	text-decoration: none;
-	background: black;
+	background-color: black;
 	letter-spacing: 3px;
 	text-align: center;
 }
