@@ -102,3 +102,8 @@ h1, h2, p, b, a{
 	letter-spacing: 3px;
 	text-align: center;
 }
+.three-icons {
+	width: 100%;
+    letter-spacing: 130px;
+    padding-top: 100px;
+}
