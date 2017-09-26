@@ -55,7 +55,7 @@ h1, h2, p, b, a{
 .hero {
 	width: 100%;
 	height: 450px;
-	background: url(../images/quays.jpg) no-repeat 70% 32%;
+	background: url(../images/cleaning_spray.jpg) no-repeat 70% 32%;
 	position: relative;
 	background-size: 100%;
 	display: table;
@@ -91,17 +91,6 @@ h1, h2, p, b, a{
 	padding: 200px 0 55px 0;
 	background: black;
 }
-.click-sec a {
-	width: 100%;
-	display: inline-block;
-	padding: 20px 0;
-	color: black;
-	text-transform: uppercase;
-	text-decoration: none;
-	background-color: black;
-	letter-spacing: 3px;
-	text-align: center;
-}
 .three-icons {
 	width: 100%;
     padding-top: 100px;
@@ -126,5 +115,4 @@ h1, h2, p, b, a{
 }
 .services {
 	width: 50%
-	
 }
