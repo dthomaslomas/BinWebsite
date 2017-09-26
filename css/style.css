@@ -4,7 +4,6 @@
          url('../fonts/museo-sans-900-5926f88205a9f-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 body{
@@ -19,7 +18,7 @@ h1, h2, p, b, a{
 .wrapper{
 	max-width: 100%;
 	margin:0px auto;
-	background-color: #95c11f;
+	background-color: #5CB7A0;
 }
 .logo {
 	float: left;
@@ -51,6 +50,7 @@ h1, h2, p, b, a{
 .icon-wrapper {
 	width: 100%;
 	text-align: center;
+	color: black;
 }
 .hero {
 	width: 100%;
@@ -89,13 +89,13 @@ h1, h2, p, b, a{
 	width: 100%;
 	text-align: center;
 	padding: 200px 0 55px 0;
-	background: #95c11f;
+	background: black;
 }
 .click-sec a {
 	width: 100%;
 	display: inline-block;
 	padding: 20px 0;
-	color: #fff;
+	color: black;
 	text-transform: uppercase;
 	text-decoration: none;
 	background-color: black;
@@ -104,6 +104,27 @@ h1, h2, p, b, a{
 }
 .three-icons {
 	width: 100%;
-    letter-spacing: 130px;
     padding-top: 100px;
+}
+.process_txt p {
+	background-color: black;
+}
+.three-icons {
+	width: 100%;
+    display: flex;
+    text-align: center;
+    position: relative;
+    justify-content: space-between;
+    max-width: 1024px;
+    margin: 0px auto;
+}
+.three-icons p{
+	color: black;
+	text-align: center;
+    width: 70%;
+    padding: 0 15%;
+}
+.services {
+	width: 50%
+	
 }
