@@ -8,6 +8,7 @@
 
 body{
 	margin: 0;
+	font-family: 'Libre Baskerville';
 }
 h1, h2, p, b, a{
 	text-decoration: none;
