@@ -9,6 +9,7 @@
 body{
 	margin: 0;
 	font-family: 'Libre Baskerville';
+	font-size: 18px;
 }
 h1, h2, p, b, a{
 	text-decoration: none;
@@ -61,7 +62,7 @@ h1, h2, p, b, a{
 	background-size: 100%;
 	display: table;
 }
-.hero h1{
+.hero h1 {
 	font-family: 'museo_sans900';
 	z-index: 1;
 	color: #feed00;
@@ -113,7 +114,29 @@ h1, h2, p, b, a{
 	text-align: center;
     width: 70%;
     padding: 0 15%;
+    margin-bottom: 60px;
 }
 .services {
 	width: 50%
 }
+.font-msg {
+	font-family: 'museo_sans900';
+	z-index: 1;
+	color: #feed00;
+	text-align: center;
+	padding-top: 12px;
+    font-size: 42px;
+    text-shadow: 1px 1px 10px #000;
+}
+.info-wrapper {
+	width: 100%;
+	height: 450px;
+	background-color: #5CB7A0;
+	font-family: 'Libre Baskerville';
+    width: 70%;
+    padding: 5% 15%;
+}
+.info-wrapper p {
+	color: black;
+	text-align: center;
+ }
