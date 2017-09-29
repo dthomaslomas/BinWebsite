@@ -149,7 +149,7 @@ h1, h2, p, b, a{
  }
  .whyus li {
  	text-align: center;
- 	line-height: 2.5em;
+ 	line-height: 2.0em;
  	color: black;
  }
 .choose-us {
@@ -164,9 +164,12 @@ h1, h2, p, b, a{
 	background-color: #353535;
 }
 .trust-icons {
-	display: inline-block;
+	flex-direction: row;
+	width: 200%;
+	display: flex;
+	justify-content: flex-end;
 	padding: 20px;
-	box-sizing: inherit;
+	align-content: space-between;
 }
 .trust-icons a{
 	display: inline-block;
@@ -174,6 +177,8 @@ h1, h2, p, b, a{
 	box-sizing: inherit;
 	background-color: white;
 	border-radius: 5px;
+	height: 30px;
+	margin: 10px;
 }
 .trust-icons .twitter {
 	background-color: #24a9e6;
@@ -181,12 +186,20 @@ h1, h2, p, b, a{
 .trust-icons .facebook {
 	background-color: #43619c;
 }
-.trust-icons .visa {
 
+.footer-nav ul li {
+	list-style: none;
 }
-.trust-icons .mastercard {
 
+.footer-nav ul li a{
+	font-size:12px;
+	display: flex;
+	line-height: 2.08em;
+	a: hover;
 }
-.verifiedbyvisa {
-
+.footer-wrapper {
+	display: inline-block;
+}
+.footer-navigation {
+	display: inline-table;
 }
