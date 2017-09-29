@@ -158,3 +158,35 @@ h1, h2, p, b, a{
 .choose-us h3 {
 	font-size: 45px;
 }
+.footer {
+	width: 100%;
+	height: auto;
+	background-color: #353535;
+}
+.trust-icons {
+	display: inline-block;
+	padding: 20px;
+	box-sizing: inherit;
+}
+.trust-icons a{
+	display: inline-block;
+	padding: 20px;
+	box-sizing: inherit;
+	background-color: white;
+	border-radius: 5px;
+}
+.trust-icons .twitter {
+	background-color: #24a9e6;
+}
+.trust-icons .facebook {
+	background-color: #43619c;
+}
+.trust-icons .visa {
+
+}
+.trust-icons .mastercard {
+
+}
+.verifiedbyvisa {
+
+}
