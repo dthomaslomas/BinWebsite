@@ -166,12 +166,13 @@ h1, h2, p, b, a{
 }
 .trust-icons {
 	flex-direction: row;
-	width: 200%;
+	width: 35%;
 	display: flex;
 	justify-content: flex-end;
 	padding: 20px;
 	align-content: space-between;
 	float: left;
+	margin-right: 15%
 }
 .trust-icons a{
 	display: inline-block;
@@ -181,8 +182,7 @@ h1, h2, p, b, a{
 	border-radius: 5px;
 	height: 30px;
 	margin: 10px;
-	margin-top: -170px;
-    margin-left: 10px;
+    margin-bottom: 0;
 }
 .trust-icons .twitter {
 	background-color: #24a9e6;
@@ -199,15 +199,17 @@ h1, h2, p, b, a{
 	font-size:12px;
 	display: flex;
 	line-height: 2.08em;
-	a: hover;
+	text-decoration: underline;
 }
 .footer-wrapper {
-	display: inline-block;
+	display: flex;
 }
 .footer-navigation {
 	display: inline-table;
 	height: 30px;
 	margin: 10px;
-	margin-top: -170px;
-    margin-left: 10px;
+}
+.footer-nav {
+	width: 37%;
+    margin-left: 13%;
 }
