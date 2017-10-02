@@ -26,8 +26,8 @@ h1, h2, p, b, a{
 	float: left;
 	margin: 0;
 	border-radius: 50%;
-	background-color: black;
 	display: flex;
+	background:#000;
 }
 .logo img {
 	justify-content: center;
@@ -65,17 +65,19 @@ h1, h2, p, b, a{
 .hero h1 {
 	font-family: 'museo_sans900';
 	z-index: 1;
-	color: #feed00;
+	color: #fffef6;
 	text-align: center;
 	padding-top: 140px;
     font-size: 42px;
     text-shadow: 1px 1px 10px #000;
+    position: relative;
 }
 .hero p {
 	font-family: 'museo_sans900'
 	text-shadow: 1px 1px 10px #000;
 	font-size: 30px;
 	text-align: center;
+	position: relative;
 }
 .hero:after{
 	content: "";
@@ -85,7 +87,7 @@ h1, h2, p, b, a{
 	left: 0;
 	position: absolute;
 	display: block;
-	background: rgba(0, 0, 0, 0.11);
+	background: rgba(16, 15, 15, 0.5);
 }
 .text-section {
 	width: 100%;
@@ -122,7 +124,7 @@ h1, h2, p, b, a{
 .font-msg {
 	font-family: 'museo_sans900';
 	z-index: 1;
-	color: #feed00;
+	color: #ecece5;
 	text-align: center;
 	padding-top: 12px;
     font-size: 42px;
@@ -162,14 +164,13 @@ h1, h2, p, b, a{
 	width: 100%;
 	height: auto;
 	background-color: black;
-	padding: 10px;
+	padding: 10px 0;
 }
 .trust-icons {
 	flex-direction: row;
 	width: 35%;
 	display: flex;
 	justify-content: flex-end;
-	padding: 20px;
 	align-content: space-between;
 	float: left;
 	margin-right: 15%
@@ -183,6 +184,10 @@ h1, h2, p, b, a{
 	height: 30px;
 	margin: 10px;
     margin-bottom: 0;
+    display: flex;
+}
+.trust-icons a img{
+	max-height: 26px;
 }
 .trust-icons .twitter {
 	background-color: #24a9e6;
@@ -190,11 +195,14 @@ h1, h2, p, b, a{
 .trust-icons .facebook {
 	background-color: #43619c;
 }
-
+.footer-nav ul{
+	width: 100%;
+}
 .footer-nav ul li {
 	list-style: none;
+	width:50%;
+	float: left;
 }
-
 .footer-nav ul li a{
 	font-size:12px;
 	display: flex;
