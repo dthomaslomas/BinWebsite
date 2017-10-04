@@ -270,6 +270,12 @@ h1, h2, p, b, a{
 .about-content div:nth-child(4) {
 	background-color: #5CB7A0;
 }
+br {
+	text-align: center;
+ 	line-height: 2.0em;
+ 	color: black;
+}
+
 
 
 
