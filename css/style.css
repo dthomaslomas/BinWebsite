@@ -15,12 +15,16 @@ h1, h2, p, b, a{
 	text-decoration: none;
 	color: white;
 	font-size: 18px;
-	font-weight: bold;
+	font-weight: normal;
 }
 .wrapper{
 	max-width: 100%;
 	margin:0px auto;
 	background-color: #5CB7A0;
+}
+.about-wrapper {
+	max-width: 100%;
+	margin:0px auto;
 }
 .logo {
 	float: left;
@@ -147,7 +151,7 @@ h1, h2, p, b, a{
  	text-align: center;
  	line-height: 2.5em;
  	color: black;
- 	font-weight: bold;
+ 	font-weight: normal;
  }
  .whyus li {
  	text-align: center;
@@ -221,6 +225,66 @@ h1, h2, p, b, a{
 	width: 37%;
     margin-left: 13%;
 }
+.hero {
+	width: 100%;
+	height: 450px;
+	background: url(../images/hand-stove.jpg) no-repeat 70% 32%;
+	position: relative;
+	background-size: 100%;
+}
+
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+| About Page													|
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+.about-wrapper .container{
+	width: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+.about-content {
+	width: 100%;
+	background-color: white;
+}
+.about-content h2 {
+	text-align: center;
+	font-size: 70px;
+	color: black;
+}
+.about-content div {
+	display: flex;
+	justify-content: space-between;
+}
+.about-content div p {
+	width: 48%;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*Tablet*/
 @media only screen and (max-width: 768px) {
 
@@ -244,5 +308,12 @@ h1, h2, p, b, a{
 	}
 	.hero p {
 		margin: 10px;
+	}
+	.trust-icons {
+		flex-direction: column;
+		display: inline-grid;
+	}
+	.footer-nav ul {
+		width: 109%;
 	}
 }
