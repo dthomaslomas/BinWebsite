@@ -225,6 +225,11 @@ h1, h2, p, b, a{
 	width: 37%;
     margin-left: 13%;
 }
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+| About Page													|
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
 .hero {
 	width: 100%;
 	height: 450px;
@@ -232,12 +237,7 @@ h1, h2, p, b, a{
 	position: relative;
 	background-size: 100%;
 }
-
-
-/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-| About Page													|
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
-.about-wrapper .container{
+.about-wrapper .container {
 	width: 100%;
 	max-width: 1024px;
 	margin: 0 auto;
@@ -252,6 +252,7 @@ h1, h2, p, b, a{
 	text-align: center;
 	font-size: 70px;
 	color: black;
+	margin: 0;
 }
 .about-content div {
 	display: flex;
@@ -260,7 +261,17 @@ h1, h2, p, b, a{
 .about-content div p {
 	width: 48%;
     color: #000;
+    padding: 20px 15px 20px 15px;
 }
+.hero-2 {
+	height: 450px;
+	background: url(../images/clean-space.jpg) no-repeat;
+}
+.about-content div:nth-child(4) {
+	background-color: #5CB7A0;
+}
+
+
 
 
 
