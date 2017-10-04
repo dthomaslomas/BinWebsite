@@ -265,7 +265,7 @@ h1, h2, p, b, a{
 }
 .hero-2 {
 	height: 450px;
-	background: url(../images/clean-space.jpg) no-repeat;
+	background: url(../images/clean-space.jpg) no-repeat 100% 100%;
 }
 .about-content div:nth-child(4) {
 	background-color: #5CB7A0;
