@@ -254,26 +254,27 @@ h1, h2, p, b, a{
 	color: black;
 	margin: 0;
 }
-.about-content div {
+.about-content .flex {
 	display: flex;
 	justify-content: space-between;
 }
-.about-content div p {
-	width: 48%;
+.about-content .flex div{
+	padding: 20px;
+}
+p {
     color: #000;
-    padding: 20px 15px 20px 15px;
 }
 .hero-2 {
 	height: 450px;
-	background: url(../images/clean-space.jpg) no-repeat 100% 100%;
+	background: url(../images/clean-space.jpg) no-repeat;
+	background-size: 100%;
+    background-position: center;
 }
 .about-content div:nth-child(4) {
 	background-color: #5CB7A0;
 }
 br {
-	text-align: center;
  	line-height: 2.0em;
- 	color: black;
 }
 
 
