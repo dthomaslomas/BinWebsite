@@ -287,24 +287,46 @@ br {
 	background: url(../images/office-clean.jpg) no-repeat 70% 32%;
 	position: relative;
 }
-.seperator {
-    background-color: #5CB7A0;
-    height: 20px;
-}
+
 
 .domestic-content {
 	float: left;
 	width: 50%;
+	text-align: center;
+	list-style: none;
+	margin-top: 30px;
 }
-.boardroom {
+.boardroom img {
 	float: right;
 	width: 50%;
-	height: 35%;
+	height: 20%;
 }
-.vac-carpet {
+.vac-carpet img {
+	float: left;
+	width: 50%;
+}
+.domestic-content ul {
+	list-style-type: none;
+	line-height: 2.0em;
+}
+.domestic-content p {
+	padding: 5px;
+}
+.our-work {
+	width: 50%;
+	padding: 0;
+	text-align: center;
+	list-style: none;
+	margin-top: 30px;
 	float: left;
 }
-
+.trust-banner {
+	width: 100%;
+	text-align: center;
+	background-color: #edf1f5;
+	float: left;
+	padding: 20px 0;
+}
 
 
 
