@@ -169,6 +169,7 @@ h1, h2, p, b, a{
 	height: auto;
 	background-color: black;
 	padding: 10px 0;
+	float: left;
 }
 .trust-icons {
 	flex-direction: row;
@@ -326,6 +327,8 @@ br {
 	background-color: #edf1f5;
 	float: left;
 	padding: 20px 0;
+	letter-spacing: 170px;
+	height: auto;
 }
 
 
