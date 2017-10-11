@@ -279,7 +279,7 @@ br {
 }
 
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-| Domestic Cleaning Page													|
+| Office Cleaning Page													|
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
 .office-clean img {
@@ -335,6 +335,17 @@ br {
 .our-work p {
 	padding: 20px;
 	line-height: 21px;
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+| Domestic Cleaning Page													|
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+.domestic-clean img {
+	width: 100%;
+	height: 450px;
+	background: url(../images/living-room.jpg) no-repeat 70% 32%;
+	position: relative;
 }
 
 
