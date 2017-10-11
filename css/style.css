@@ -289,33 +289,31 @@ br {
 	position: relative;
 }
 
-
-.domestic-content {
+.commercial-content {
 	float: left;
 	width: 50%;
 	text-align: center;
 	list-style: none;
 	margin-top: 30px;
 }
-.boardroom img {
+.boardroom img, .living-room {
 	float: right;
 	width: 50%;
 	height: 20%;
 }
-.vac-carpet img {
+.vac-carpet img, .kitchen-clean {
 	float: left;
 	width: 50%;
 	clear: both;
-
 }
-.domestic-content ul {
+.commercial-content ul,  {
 	list-style-type: none;
 	line-height: 2.0em;
 }
-.domestic-content p {
+.commercial-content p {
 	padding: 5px;
 }
-.our-work {
+.our-work, .domestic-content {
 	width: 50%;
 	padding: 0;
 	text-align: center;
@@ -341,11 +339,34 @@ br {
 | Domestic Cleaning Page													|
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
-.domestic-clean img {
+.domestic-clean {
 	width: 100%;
 	height: 450px;
-	background: url(../images/living-room.jpg) no-repeat 70% 32%;
+	background: url(../images/domestic-hero.jpg) no-repeat;
 	position: relative;
+	background-size: cover;
+}
+.domestic {
+	float: left;
+	width: 50%;
+	text-align: center;
+	list-style: none;
+	margin-top: 30px;
+}
+.domestic-content ul {
+	list-style-type: none;
+	line-height: 2.0em;
+}
+.domestic-content p {
+	padding: 5px;
+}
+.domestic {
+	width: 50%;
+	padding: 0;
+	text-align: center;
+	list-style: none;
+	margin-top: 30px;
+	float: left;
 }
 
 
