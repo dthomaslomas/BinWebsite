@@ -301,7 +301,7 @@ br {
 	width: 50%;
 	height: 20%;
 }
-.vac-carpet img, .kitchen-clean {
+.vac-carpet img {
 	float: left;
 	width: 50%;
 	clear: both;
@@ -368,8 +368,11 @@ br {
 	margin-top: 30px;
 	float: left;
 }
-
-
+.kitchen-clean img {
+	float: left;
+	width: 50%;
+	clear: both;
+}
 
 
 
