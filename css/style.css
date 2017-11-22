@@ -428,6 +428,10 @@ br {
 .contact-container form input{
 	
 }
+.form-container {
+	border: 4px solid black;
+	
+}
 
 /*Tablet*/
 @media only screen and (max-width: 768px) {
