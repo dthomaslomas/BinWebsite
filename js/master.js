@@ -17,10 +17,6 @@ document.addEventListener("DOMContentLoaded", function(){
 			link:"domestic-cleaning"
 		},
 		{
-			page:"Work for us",
-			link:"work-for-us"
-		},
-		{
 			page:"Contact",
 			link:"contact"
 		}
