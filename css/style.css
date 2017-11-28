@@ -159,6 +159,7 @@ h1, h2, p, b, a {
  	text-align: center;
  	line-height: 2.0em;
  	color: black;
+ 	margin: 15px
  }
 .choose-us {
 	text-align: center;
