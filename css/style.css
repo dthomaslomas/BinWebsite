@@ -45,7 +45,7 @@ h1, h2, p, b, a {
     width: 1024px;
     margin: 0 auto;
 }
-.container-header ul li{
+.container-header ul li {
 	display: inline-block;
 	margin: 0;
 	padding: 10px 20px;
